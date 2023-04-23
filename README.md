@@ -2,7 +2,7 @@
 Aprenda HTML, CSS3, SEO de forma simples, prática e objetiva desenvolvendo passo a passo do xewro até a hospedagem um site modewrno e responsivo
 ## Links indicados
 ### Wiregrame
-[draw](https://app.diagrams.net/)
+[draw.io](https://app.diagrams.net/)
 ### Tipologia
 [google fonts](https://fonts.google.com/)
 ### Imagens
