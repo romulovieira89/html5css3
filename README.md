@@ -1,5 +1,5 @@
 # html5css3
-Aprenda HTML, CSS3, SEO de forma simples, prática e objetiva desenvolvendo passo a passo do xewro até a hospedagem um site modewrno e responsivo
+Aprenda HTML, CSS3, SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.
 ## Links indicados
 ### Wiregrame
 [draw.io](https://app.diagrams.net/)
