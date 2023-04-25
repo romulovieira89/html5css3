@@ -1,8 +1,33 @@
+/* Importação (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@400;700 & display =swap');
+
+
+/* CSS Reset */
+*{
+   margin: 0;
+   border: 0;
+   padding: 0;
+}
+
+/* Smartphone Portrait*/
+
 /*Smartphone Landscape*/
 @media (min-width: 576px){
    body{
     background-color: #0ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
    } 
+    /* Layout */
+    .container{
+      max-width: 540px;
+    }
+}
+
+/* Layout */
+.container{
+   margin: 0 auto;
+   background-color: #7f0;
 }
 
 /*Tablet Portrait*/
@@ -10,6 +35,10 @@
     body{
      background-color: #ff0;
     } 
+    /* Layout */
+    .container{
+      max-width: 720px;
+    }
  }
 
 /*Tablet Landscape*/
@@ -17,6 +46,10 @@
     body{
      background-color: #f60;
     } 
+     /* Layout */
+     .container{
+      max-width: 960px;
+    }
  }
 
 /*PC*/
@@ -24,4 +57,8 @@
     body{
      background-color: #f00;
     } 
+     /* Layout */
+     .container{
+      max-width: 1140px;
+    }
  }
