@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 e CSS3 - One page site</title>
-    <meta name="description" content="Aprenda HTML, CSS3, SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.">
+    <meta name="description"
+        content="Aprenda HTML, CSS3, SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.">
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-    <header>
-
+    <header id="inicio">
+        <div class="container flex">
+            <div id="logo">
+                <img src="/img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- Destaque -->
     <main>
         <div class="container">
-        <h1>HTML5 e CSS3</h1>
-        <h2>Você faz. Você vê. Você aprende.</h2>
+            <h1>HTML5 e CSS3</h1>
+            <h2>Você faz. Você vê. Você aprende.</h2>
         </div>
     </main>
     <!-- Sobre -->
-    <section>
+    <section id="sobre">
         <div class="container">
-        <h2>Aprender na prática</h2>
+            <h2>Aprender na prática</h2>
         </div>
     </section>
     <!-- One page -->
     <section>
         <div class="container">
-        <h2>One page site</h2>
+            <h2>One page site</h2>
         </div>
     </section>
     <!-- Wireframe -->
     <section>
         <div class="container">
-        <h2>Wireframe</h2>
+            <h2>Wireframe</h2>
         </div>
     </section>
     <!-- Conteúdo -->
-    <section>
+    <section id="conteudo">
         <div class="container">
-        <h2>Conteúdo</h2>
-        <h3>HTML5</h3>
-        <h3>BOX MODEL CSS</h3>
-        <h3>BREAKPOINTS</h3>
+            <h2>Conteúdo</h2>
+            <h3>HTML5</h3>
+            <h3>BOX MODEL CSS</h3>
+            <h3>BREAKPOINTS</h3>
         </div>
     </section>
     <!-- Rodapé -->
-    <footer>
+    <footer id="contato">
         <div class="container">
-            
+
         </div>
     </footer>
+    <a href="#inicio" id="topo"><img src="/img/topo.png" alt="topo do site"></a>
 </body>
+
 </html>
